@@ -8,7 +8,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/out/${fileBasenameNoExtension}"
+                "build/exec"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
