@@ -3,8 +3,11 @@ project(C++ VERSION 0.1.0)
 
 include(CTest)
 enable_testing()
-
-add_executable(exec ./fun1/ruler.cpp)
+aux_source_directory(memory-model/model1 DIR_SRCS)
+SET(TEST_MATH
+${DIR_SRCS}
+)
+add_executable(exec ${TEST_MATH})
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
