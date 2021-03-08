@@ -6,7 +6,7 @@
             "command": "D:/mingw64/bin/g++.exe",
             "args": [
                 "-g",
-                "${file}",
+                "${fileDirname}\\*.cpp",
                 "-o",
                 "build\\exec.exe"
             ],
