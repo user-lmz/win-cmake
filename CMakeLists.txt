@@ -3,7 +3,7 @@ project(C++ VERSION 0.1.0)
 
 #inclide(CTest)
 enable_testing()
-aux_source_directory(class-example/time10 DIR_SRCS)
+aux_source_directory(test DIR_SRCS)
 # include_directories("class-example/time01")
 
 # SET(TEST_MATH
